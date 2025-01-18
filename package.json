@@ -16,7 +16,9 @@
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "nuxt": "^3.14.1592",
+    "react-textarea-autosize": "^8.5.7",
     "sweetalert2": "^11.14.5",
+    "universal-cookie": "^7.2.2",
     "validator": "^13.12.0",
     "vue": "latest",
     "vue-router": "latest"

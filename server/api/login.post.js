@@ -64,9 +64,3 @@ export default defineEventHandler(async (event) => {
     throw error
   }
 })
-
-// GET
-// POST
-// PATCH
-// PUT
-// DELETE

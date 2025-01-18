@@ -17,6 +17,7 @@ export default defineEventHandler(async (event) => {
     const newNote = await prisma.note.create({
       data: {
         text: '',
+        name: 'Untitled',
         userId: decodedToken.id,
       },
     })

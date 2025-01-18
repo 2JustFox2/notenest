@@ -45,6 +45,7 @@ export default defineEventHandler(async (event) => {
       },
       data: {
         text: body.updatedNote,
+        name: body.name,
       },
     })
     console.log(body)
